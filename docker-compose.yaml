@@ -12,7 +12,7 @@ services:
           nginx:
                 build: ./nginx
                 container_name: nginx
-                restart: Never
+                restart: always
                 ports:
                 - "80:80"
 
